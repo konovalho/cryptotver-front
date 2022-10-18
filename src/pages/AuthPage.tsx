@@ -4,7 +4,7 @@ import Web3 from "web3";
 
 import { wallets } from "src/helpers/_wallets";
 
-import styles from "./auth.module.scss";
+import styles from "./auth.module.css";
 
 function App() {
   const { activate, library } = useWeb3React<Web3>();

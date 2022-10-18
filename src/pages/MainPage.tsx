@@ -8,7 +8,7 @@ import { getBalance, setBalance } from "src/api/storage";
 
 import logo from "../logo.svg";
 import "../App.css";
-import styles from "./main.module.scss";
+import styles from "./main.module.css";
 
 function App() {
   const [isLoading, setIsLoading] = useState<boolean>(false);
